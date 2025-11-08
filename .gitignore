@@ -1,0 +1,109 @@
+# -------------------------------
+# Python & Machine Learning Project .gitignore
+# -------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Data files
+data/
+
+*.csv
+*.tsv
+*.json
+*.xml
+*.zip
+*.gz
+*.tar
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pcap
+
+# Output / results
+outputs/
+results/
+runs/
+checkpoints/
+
+tmp/
+temp/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Jupyter Notebook metadata
+.profile
+*.nbconvert.ipynb
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+.pytest_cache/
+
+# IDE / OS specific
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# TensorBoard logs
+logs/
+tensorboard/
+
+# Docker
+*.pid
+*.tar
+*.img
+*.dockerfile
+docker-compose*.yml
+
+# Environment variable files
+*.env
+
+# Credentials / secrets (be careful!)
+secrets/
+credentials.json
+token.json
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old
