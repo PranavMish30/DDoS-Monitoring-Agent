@@ -4,7 +4,7 @@ do
     echo "Starting monitoring cycle..."
     
     # 1. Packet Capture (e.g., for 60 seconds)
-    python3 ./Agent/pcap.py -i wlan0 -t 60 -o /Packets/output.pcap
+    python3 ./Agent/pcap.py -i wlan0 -t 60 -o ./Packets/output.pcap
 
     # 2. Preprocessing & Cleaning
     python3 ./Agent/pre-processing.py
